@@ -149,6 +149,7 @@
 초기엔 모든 해싱 로직을 한 파일(bcrypt-middleware.js)에 구현하여 기능 분리가 불분명하고, 유지보수 및 재사용성이 떨어졌습니다. 
 
 ***초기코드***
+
 ![image](https://github.com/user-attachments/assets/12ca898e-7a57-4077-8d33-17d90a564795)
 
 팀장님의 제안으로 이를 해결하기 위해 다음과 같은 개선을 진행했습니다:
