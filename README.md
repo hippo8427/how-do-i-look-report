@@ -32,6 +32,8 @@
 
 ### 1. 답글 등록, 수정, 삭제 기능 구현
 
+[ [ **Comment Wiki** ] ](https://github.com/gyunam-bark/nb02-how-do-i-look-team1/wiki/%5BAPI%5DComment) 
+
 **comment-controller.js** : 클라이언트 요청을 받아 서비스 코드 호출 및 응답을 처리
 
 ![image](https://github.com/user-attachments/assets/4352edff-5f67-412b-a77d-815a6a7d27d0)
@@ -56,6 +58,9 @@
 <br>
 
 ### 2. 비밀번호 해싱 기능
+
+[ [ **Password Hashing Wiki** ] ](https://github.com/gyunam-bark/nb02-how-do-i-look-team1/wiki/%5B%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4,-%EC%9C%A0%ED%8B%B8%5D-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8-%ED%95%B4%EC%8B%B1)
+
 **hash-password.js** : 비밀번호를 bcrypt로 해싱 처리 
 **compare-password.js** : 입력 비밀번호와 저장된 해시 비교
 
