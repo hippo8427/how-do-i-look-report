@@ -146,6 +146,9 @@
 
 초기엔 모든 해싱 로직을 한 파일에 구현하여 기능 분리가 불분명하고, 유지보수 및 재사용성이 떨어졌습니다. 
 
+[ [ **리팩토링 PR** ] ](https://github.com/gyunam-bark/nb02-how-do-i-look-team1/pull/185)
+
+<br>
 
 ***초기코드***
 
@@ -153,7 +156,6 @@
 
 팀장님의 제안으로 이를 해결하기 위해 다음과 같은 개선을 진행했습니다:
 
-[ [ **리팩토링 PR** ] ](https://github.com/gyunam-bark/nb02-how-do-i-look-team1/pull/185)
 
 - **기능별로 파일 분리** : 해싱 기능을 각각 **hash-password.js**와 **compare-password.js**로 분리
 
